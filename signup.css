@@ -1,0 +1,170 @@
+:root {
+    --valid: green;
+    --invalid: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(69, 2, 254), rgb(233, 189, 251), rgb(254, 3, 254));
+    color: white;
+    font: 400 87.5%/1.5em 'Open Sans', sans-serif;
+}
+
+.contain {
+    background-color: black;
+    /* background: linear-gradient(110deg, rgb(253, 202, 253) 30%, rgb(246, 2, 246) 60%, rgb(236, 1, 236) 50%); */
+    margin: 1em auto;
+    padding: 0 1em;
+    max-width: 370px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em 0;
+}
+
+div {
+    padding: 0 0.8em;
+}
+
+.item {
+    margin: 0 10px 0.75em 0;
+    width: 100%;
+}
+
+.item input {
+    background: #fafafa;
+    border: none;
+    border-bottom: 2px solid #e9e9e9;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 50px;
+    transition: border-color 0.3s;
+    width: 40ex;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item input:focus {
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+
+span {
+    font-size: 1.3rem;
+}
+
+.footer {
+    font-size: 1em;
+    /* padding: 1px 0; */
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: border-color 0.3s;
+}
+
+.footer a:hover {
+    border-bottom: 1px dashed white;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.custom {
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1px 25px;
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 500; */
+    font-size: 1.4rem;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn {
+    width: 10pc;
+    border-radius: 20px;
+    /* background-color: rgb(63, 4, 160); */
+    background: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(240, 5, 197) 100%);
+    border: none;
+}
+
+.btn:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(149, 244, 247, 0.5), -4px -4px 6px 0 rgba(253, 145, 253, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+#message {
+    background-color: black;
+    height: 70px;
+    font-size: 1rem;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#pg1 {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1px 4ex;
+    margin-top: 10px;
+    width: 80%;
+    height: 60%;
+    padding: 5px 1px;
+    font-size: 1.1rem;
+}
+
+#containbtn {
+    /* border: 1px solid gold;  \ */
+    margin-top: 10px;
+    margin-left: 70pc;
+    width: 11pc;
+    height: 3.1pc;
+}
+
+#btn1 {
+    width: 8pc;
+    border-radius: 20px;
+    /* background-color: rgb(63, 4, 160); */
+    background: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(240, 5, 197) 100%);
+    border: none;
+}
+
+#btn1:before {
+    height: 0%;
+    width: 2px;
+}
+
+#btn1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(149, 244, 247, 0.5), -4px -4px 6px 0 rgba(253, 145, 253, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, .2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+#btn1 a {
+    text-decoration: none;
+    color: white;
+}

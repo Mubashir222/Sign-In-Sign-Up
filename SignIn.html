@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignIn.css">
+    <script src="SignIn.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Sign In</title>
+</head>
+
+<body>
+    <div id="containbtn">
+        <button class="custom" id="btn1"><a href="signup.html">Sign Up</a></button>
+    </div>
+    <div class="form-wrapper">
+        <h1>Sign In</h1>
+        <div>
+            <div class="form-item" id="fmail">
+                <label for="email"></label>
+                <input type="email" name="email" id="mail" placeholder="Email Address"></input>
+            </div>
+            <div class="form-item">
+                <label for="password"></label>
+                <input type="password" name="password" id="psw" placeholder="Password"></input>
+                <!-- <i class="bi bi-eye-slash" id="togglePassword"></i> -->
+            </div>
+            <button class="custom btn" onclick="validation()"><span>Sign In</span></button>
+        </div>
+        <div class="form-footer">
+            <p><a href="#">Create an account</a></p>
+            <p><a href="#">Forgot password?</a></p>
+        </div>
+        <div id="message">
+            <p id="pg1"></p>
+            <!-- <p id="pg2"></p> -->
+        </div>
+    </div>
+</body>
+
+</html>
